@@ -1,2 +1,4 @@
-object.onload = function(){alert(1);};
+window.onload = (event) => {
+  console.log('page is fully loaded');
+};
 
